@@ -9,7 +9,7 @@ namespace Autotest.Tests
         public void GetNameTest()
         {
             var info = new Information();
-            Assert.AreEqual("Marcus", info.GetName());
+            Assert.AreEqual("Marcus!", info.GetName());
         }
     }
 }
